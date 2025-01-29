@@ -47,7 +47,7 @@ This is a simple ASP.NET Core Web API that provides basic information such as em
 
 ### Example Usage
 To get the basic information, send a `GET` request to the following URL:
-<p><code>curl -X GET "http://localhost:5000/api/basic-info"</code></p>
+<p><code>curl -X GET "https://hng-task0-bfg8d9dcagdgahfe.canadacentral-01.azurewebsites.net/api/basic-info"</code></p>
 
 
 ## Additional Information
