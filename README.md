@@ -21,4 +21,34 @@ This is a simple ASP.NET Core Web API that provides basic information such as em
 6. Run the project using Visual Studio or the .NET CLI:
    <p><code>dotnet run</code></p>
 
+
+## API Documentation
+
+### Endpoint URL
+- `GET /api/basic-info`
+
+### Request
+- Method: `GET`
+- URL: `/api/basic-info`
+
+### Response
+- Status: `200 OK`
+- Content-Type: `application/json`
+- Body:
+{
+    "email": "promiseadeagbo@gmail.com",
+    "current_dateTime": "2025-01-30T09:30:00Z",
+    "github_url": "https://github.com/Promise30/HNG-Task0"
+}
+
+    
+
+### Example Usage
+To get the basic information, send a `GET` request to the following URL:
+curl -X GET "http://localhost:5000/api/basic-info"
+
+
+## Additional Information
+For more information, please visit [HNG](https://hng.tech/hire/csharp-developers).
+
     
