@@ -14,7 +14,7 @@ namespace HNG_Task0_PublicAPIService.Controllers
             var basicInfo = new
             {
                 email = "promiseadeagbo@gmail.com",
-                current_datetime = DateTimeOffset.Now.ToString("yyyy-MM-ddTHH:mm:ssZ"),
+                current_datetime = DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ssZ"),
                 github_url = "https://github.com/Promise30/HNG-Task0"
             };
             return Ok(basicInfo);
